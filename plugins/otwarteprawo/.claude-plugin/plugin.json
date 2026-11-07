@@ -1,7 +1,7 @@
 {
   "name": "otwarteprawo",
   "displayName": "Otwarte prawo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Polish law acts as they read on a date, through otwarteprawo.pl's MCP server: research by address and date, a citation check of a draft, and the text that applied on the date of an event",
   "author": {
     "name": "otwarteprawo.pl",
@@ -15,7 +15,7 @@
     "api_key": {
       "type": "string",
       "title": "otwarteprawo.pl API key",
-      "description": "Your key from https://www.otwarteprawo.pl/klucz. It is kept in your system's secure storage and sent only to api.otwarteprawo.pl, as the Authorization header.",
+      "description": "Your key from https://www.otwarteprawo.pl/klucz. Claude Code keeps it in its credential store, not in settings.json, and sends it only to api.otwarteprawo.pl, as the Authorization header.",
       "sensitive": true,
       "required": true
     }

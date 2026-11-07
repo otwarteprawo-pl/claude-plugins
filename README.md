@@ -21,8 +21,9 @@ In Claude Code:
 ```
 
 When the plugin is enabled, Claude Code asks for your API key. Get one at
-<https://www.otwarteprawo.pl/klucz>. The key is kept in your system's secure storage and is
-sent only to `https://api.otwarteprawo.pl/mcp`, as the `Authorization` header. This
+<https://www.otwarteprawo.pl/klucz>. Claude Code keeps the key in its credential store, not in
+`settings.json`; on Linux that store is `~/.claude/.credentials.json`, readable only by you. The
+key is sent only to `https://api.otwarteprawo.pl/mcp`, as the `Authorization` header. This
 repository holds no key.
 
 ## What it gives Claude

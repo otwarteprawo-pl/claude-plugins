@@ -56,8 +56,9 @@ precision (ustawa, ustęp, tekst jednolity, Dziennik Ustaw).
 
 ## Quote only what the tool returned
 
-- Provision text comes only from a `get_provision` answer whose `answer` is `text`. Quote its
-  `fragment` (the markdown answer gives it as plain text) word for word.
+- Provision text comes only from a `get_provision` answer whose `answer` is `text`. Its
+  `fragment` is Akoma Ntoso XML: quote the text inside its elements word for word, in document
+  order, with each unit's `num` and without the markup.
 - Never write a provision's wording from memory, from another source, or by completing a
   fragment. This holds most of all when the tool returns no text.
 - Your analysis is welcome, kept apart from the quoted text and labelled as your reading. Never
@@ -135,9 +136,14 @@ tajemnica radcowska).
   - `art_5__para_1__pnt_2`: punkt;
   - `art_5__para_1__pnt_2__lett_a`: litera;
   - `par_3`: § of a rozporządzenie;
+  - `art_299__par_1`: § inside an article, as in a kodeks;
   - `att_<n>`: an annex. `<n>` counts positions, not the annex's own number.
 
   When unsure of an eId, get it from `search_acts` by citation rather than guess.
+- Search covers acts in force today, so an act no longer in force is not found by citation.
+  Read it with `get_provision` at its journal address, as the draft gives it or as you ask the
+  user for it. An address you know yourself may be tried, and is confirmed only by the title
+  the answer returns.
 - `date` is `YYYY-MM-DD`.
 
 ## When a call fails
