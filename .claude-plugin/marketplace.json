@@ -1,0 +1,15 @@
+{
+  "name": "otwarteprawo",
+  "description": "Polish law acts as they read on a date, from otwarteprawo.pl",
+  "owner": {
+    "name": "otwarteprawo.pl",
+    "url": "https://www.otwarteprawo.pl"
+  },
+  "plugins": [
+    {
+      "name": "otwarteprawo",
+      "source": "./plugins/otwarteprawo",
+      "description": "otwarteprawo.pl's MCP server and three research skills: a provision as it read on a date, a citation check of a draft, and the text that applied on the date of an event"
+    }
+  ]
+}
