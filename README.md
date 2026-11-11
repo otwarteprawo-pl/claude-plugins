@@ -1,13 +1,13 @@
-# otwarteprawo: a Claude Code plugin
+# otwarteprawo: a Claude plugin
 
-**PL.** Wtyczka do Claude Code, która łączy Claude z serwerem MCP serwisu
+**PL.** Wtyczka do Claude, która łączy Claude z serwerem MCP serwisu
 [otwarteprawo.pl](https://www.otwarteprawo.pl): tekst polskich aktów prawnych w brzmieniu na
 wybrany dzień, z linkiem do PDF-u Dziennika Ustaw lub Monitora Polskiego, jedynego tekstu
 urzędowego. Zawiera trzy umiejętności: badanie przepisu po adresie i dacie, sprawdzenie
 cytowań w projekcie pisma na dzień oraz ustalenie, jakie brzmienie obowiązywało w dniu
-zdarzenia. Klucz API wydaje [otwarteprawo.pl/klucz](https://www.otwarteprawo.pl/klucz).
+zdarzenia. Logowanie odbywa się adresem e-mail potwierdzanym przez otwarteprawo.pl.
 
-**EN.** A Claude Code plugin that connects Claude to otwarteprawo.pl's MCP server: the text of
+**EN.** A Claude plugin that connects Claude to otwarteprawo.pl's MCP server: the text of
 Polish law acts as it read on a given date, each fragment linked to the PDF of the journal that
 promulgated it, Dziennik Ustaw or Monitor Polski, the only legally authoritative text.
 
@@ -20,11 +20,19 @@ In Claude Code:
 /plugin install otwarteprawo@otwarteprawo
 ```
 
-When the plugin is enabled, Claude Code asks for your API key. Get one at
-<https://www.otwarteprawo.pl/klucz>. Claude Code keeps the key in its credential store, not in
-`settings.json`; on Linux that store is `~/.claude/.credentials.json`, readable only by you. The
-key is sent only to `https://api.otwarteprawo.pl/mcp`, as the `Authorization` header. This
-repository holds no key.
+## Sign in
+
+The server signs you in through OAuth. When Claude first connects, it opens otwarteprawo.pl's
+sign-in page in your browser. Enter your e-mail address and open the link otwarteprawo.pl sends
+you, in the browser where the sign-in began. Claude then holds an API key issued to you, and
+sends it only to `https://api.otwarteprawo.pl/mcp`. This repository holds no key, and the
+plugin asks for none.
+
+To sign in again, for instance after revoking a key, use the client's connector settings
+(`/mcp` in Claude Code).
+
+If you installed version 0.1, which asked for a key, the key you entered is no longer used by
+the plugin. Signing in issues a new one; the earlier key stays valid until you revoke it.
 
 ## What it gives Claude
 
@@ -57,5 +65,5 @@ date. See the [privacy notice](https://www.otwarteprawo.pl/prywatnosc).
 ## Status
 
 This repository is public. The plugin is handed out directly and is not listed in any
-directory. It is built for Claude Code. Cowork loads its skills but not its server, because it
-does not ask for the key.
+directory. Claude Code signs in when it connects. Cowork, claude.ai and Claude Desktop are not
+yet tried with this version.

@@ -146,7 +146,8 @@ radcowska).
 
 ## When a call fails
 
-- "The API key was refused": the user's key is missing or wrong. They set it under `/plugin` →
-  otwarteprawo → Configure options, and get one at https://www.otwarteprawo.pl/klucz.
+- "Sign in to otwarteprawo.pl to use this tool.", or "The API key was refused": the user is
+  not signed in, or their key was revoked. They sign in again from the client's connector
+  settings (`/mcp` in Claude Code), with the e-mail address otwarteprawo.pl confirms.
 - A quota message: say when it resets, as the message gives it.
 - The search index is unavailable: `get_provision` still answers for a known `eli` and `eid`.
