@@ -1,6 +1,6 @@
 {
   "name": "otwarteprawo",
-  "description": "Polish law acts as they read on a date, from otwarteprawo.pl",
+  "description": "Polskie akty prawne w brzmieniu na wybrany dzień, z otwarteprawo.pl / Polish law acts as they read on a date, from otwarteprawo.pl",
   "owner": {
     "name": "otwarteprawo.pl",
     "url": "https://www.otwarteprawo.pl"
@@ -9,7 +9,7 @@
     {
       "name": "otwarteprawo",
       "source": "./plugins/otwarteprawo",
-      "description": "otwarteprawo.pl's MCP server and three research skills: a provision as it read on a date, a citation check of a draft, and the text that applied on the date of an event"
+      "description": "Serwer MCP otwarteprawo.pl i trzy umiejętności badawcze: przepis w brzmieniu na dzień, sprawdzenie cytowań w projekcie i brzmienie z dnia zdarzenia. / otwarteprawo.pl's MCP server and three research skills: a provision as it read on a date, a citation check of a draft, and the text that applied on the date of an event."
     }
   ]
 }
