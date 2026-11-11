@@ -19,6 +19,10 @@ W Claude Code:
 /plugin install otwarteprawo@otwarteprawo
 ```
 
+W claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, wpisz
+`otwarteprawo-pl/claude-plugins`, a potem Add przy wtyczce Otwarte prawo. Na karcie Connectors
+wtyczki kliknij Connect przy `otwarteprawo`.
+
 ### Logowanie
 
 Serwer loguje przez OAuth. Przy pierwszym połączeniu Claude otwiera w przeglądarce stronę
@@ -67,8 +71,9 @@ wysyła tylko adres aktu, eId przepisu i datę. Zob.
 ### Stan
 
 To repozytorium jest publiczne. Wtyczka jest przekazywana bezpośrednio i nie figuruje w żadnym
-katalogu. Claude Code loguje się przy połączeniu. Cowork, claude.ai i Claude Desktop nie
-zostały jeszcze sprawdzone z tą wersją.
+katalogu. Claude Code loguje się przy połączeniu. claude.ai loguje się po kliknięciu Connect
+na karcie Connectors wtyczki. Cowork i Claude Desktop nie zostały jeszcze sprawdzone z tą
+wersją.
 
 ### Licencja
 
@@ -90,6 +95,10 @@ In Claude Code:
 /plugin marketplace add otwarteprawo-pl/claude-plugins
 /plugin install otwarteprawo@otwarteprawo
 ```
+
+In claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, enter
+`otwarteprawo-pl/claude-plugins`, then Add on the Otwarte prawo plugin. On the plugin's
+Connectors tab, click Connect beside `otwarteprawo`.
 
 ### Sign in
 
@@ -136,8 +145,8 @@ date. See the [privacy notice](https://www.otwarteprawo.pl/prywatnosc).
 ### Status
 
 This repository is public. The plugin is handed out directly and is not listed in any
-directory. Claude Code signs in when it connects. Cowork, claude.ai and Claude Desktop are not
-yet tried with this version.
+directory. Claude Code signs in when it connects. claude.ai signs in when you click Connect on
+the plugin's Connectors tab. Cowork and Claude Desktop are not yet tried with this version.
 
 ### License
 
