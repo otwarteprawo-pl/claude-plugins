@@ -72,7 +72,8 @@ wysyła tylko adres aktu, eId przepisu i datę. Zob.
 
 To repozytorium jest publiczne. Wtyczka jest przekazywana bezpośrednio i nie figuruje w żadnym
 katalogu. Claude Code loguje się przy połączeniu. claude.ai loguje się po kliknięciu Connect
-na karcie Connectors wtyczki. Cowork i Claude Desktop nie zostały jeszcze sprawdzone z tą
+na karcie Connectors wtyczki. Claude Desktop korzysta z tego samego konta co claude.ai,
+więc wtyczka i jej połączenie są tam od razu. Cowork nie został jeszcze sprawdzony z tą
 wersją.
 
 ### Licencja
@@ -146,7 +147,8 @@ date. See the [privacy notice](https://www.otwarteprawo.pl/prywatnosc).
 
 This repository is public. The plugin is handed out directly and is not listed in any
 directory. Claude Code signs in when it connects. claude.ai signs in when you click Connect on
-the plugin's Connectors tab. Cowork and Claude Desktop are not yet tried with this version.
+the plugin's Connectors tab. Claude Desktop shares the claude.ai account, so the plugin and
+its connection are already there. Cowork is not yet tried with this version.
 
 ### License
 
