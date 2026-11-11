@@ -62,8 +62,8 @@ mówi o tym wprost i nie uzupełnia luki.
 
 ### Tajemnica zawodowa
 
-`search_acts` wysyła słowa każdego zapytania do usługi embeddingów w UE, aby wyszukiwać po
-znaczeniu. Każda umiejętność nakazuje Claude nie umieszczać w zapytaniach faktów dotyczących
+Aby wyszukiwać po znaczeniu, `search_acts` przekazuje treść każdego zapytania zewnętrznej
+usłudze wyszukiwania semantycznego, działającej w UE. Każda umiejętność nakazuje Claude nie umieszczać w zapytaniach faktów dotyczących
 klienta i wyszukiwać wyłącznie po pojęciu prawnym, cytowaniu lub adresie aktu. `get_provision`
 wysyła tylko adres aktu, eId przepisu i datę. Zob.
 [informację o przetwarzaniu danych](https://www.otwarteprawo.pl/prywatnosc).
