@@ -20,7 +20,7 @@ W Claude Code:
 ```
 
 W claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, wpisz
-`otwarteprawo-pl/otwarteprawo.pl`, a potem Add przy wtyczce Otwarte prawo. Na karcie Connectors
+`otwarteprawo-pl/otwarteprawo.pl`, a potem Add przy wtyczce Otwarte Prawo. Na karcie Connectors
 wtyczki kliknij Connect przy `otwarteprawo`.
 
 ### Logowanie
@@ -99,7 +99,7 @@ In Claude Code:
 ```
 
 In claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, enter
-`otwarteprawo-pl/otwarteprawo.pl`, then Add on the Otwarte prawo plugin. On the plugin's
+`otwarteprawo-pl/otwarteprawo.pl`, then Add on the Otwarte Prawo plugin. On the plugin's
 Connectors tab, click Connect beside `otwarteprawo`.
 
 ### Sign in
