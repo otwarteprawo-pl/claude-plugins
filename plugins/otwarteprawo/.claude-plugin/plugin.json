@@ -9,6 +9,7 @@
   },
   "homepage": "https://www.otwarteprawo.pl",
   "repository": "https://github.com/otwarteprawo-pl/claude-plugins",
+  "license": "MIT",
   "privacyPolicyUrl": "https://www.otwarteprawo.pl/prywatnosc",
   "keywords": ["polish-law", "prawo", "dziennik-ustaw", "legal-research", "mcp"]
 }
