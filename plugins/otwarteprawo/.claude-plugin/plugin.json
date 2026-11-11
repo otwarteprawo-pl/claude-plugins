@@ -1,14 +1,14 @@
 {
   "name": "otwarteprawo",
   "displayName": "Otwarte prawo",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Polskie akty prawne w brzmieniu na wybrany dzień, z serwera MCP otwarteprawo.pl: badanie przepisu po adresie i dacie, sprawdzenie cytowań w projekcie oraz brzmienie z dnia zdarzenia. / Polish law acts as they read on a date, through otwarteprawo.pl's MCP server: research by address and date, a citation check of a draft, and the text that applied on the date of an event.",
   "author": {
     "name": "otwarteprawo.pl",
     "url": "https://www.otwarteprawo.pl"
   },
   "homepage": "https://www.otwarteprawo.pl",
-  "repository": "https://github.com/otwarteprawo-pl/claude-plugins",
+  "repository": "https://github.com/otwarteprawo-pl/otwarteprawo.pl",
   "license": "MIT",
   "privacyPolicyUrl": "https://www.otwarteprawo.pl/prywatnosc",
   "keywords": ["polish-law", "prawo", "prawo-polskie", "stan-prawny", "tekst-jednolity", "dziennik-ustaw", "legal-research", "mcp"]

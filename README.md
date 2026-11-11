@@ -15,12 +15,12 @@ ustalenie, jakie brzmienie obowiązywało w dniu zdarzenia.
 W Claude Code:
 
 ```
-/plugin marketplace add otwarteprawo-pl/claude-plugins
+/plugin marketplace add otwarteprawo-pl/otwarteprawo.pl
 /plugin install otwarteprawo@otwarteprawo
 ```
 
 W claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, wpisz
-`otwarteprawo-pl/claude-plugins`, a potem Add przy wtyczce Otwarte prawo. Na karcie Connectors
+`otwarteprawo-pl/otwarteprawo.pl`, a potem Add przy wtyczce Otwarte prawo. Na karcie Connectors
 wtyczki kliknij Connect przy `otwarteprawo`.
 
 ### Logowanie
@@ -92,12 +92,12 @@ draft as of a date, and the text that applied on the date of an event.
 In Claude Code:
 
 ```
-/plugin marketplace add otwarteprawo-pl/claude-plugins
+/plugin marketplace add otwarteprawo-pl/otwarteprawo.pl
 /plugin install otwarteprawo@otwarteprawo
 ```
 
 In claude.ai: Customize › Plugins › Add › Add marketplace › Add from a repository, enter
-`otwarteprawo-pl/claude-plugins`, then Add on the Otwarte prawo plugin. On the plugin's
+`otwarteprawo-pl/otwarteprawo.pl`, then Add on the Otwarte prawo plugin. On the plugin's
 Connectors tab, click Connect beside `otwarteprawo`.
 
 ### Sign in
