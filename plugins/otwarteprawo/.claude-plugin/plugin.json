@@ -1,7 +1,7 @@
 {
   "name": "otwarteprawo",
   "displayName": "Otwarte Prawo",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Polskie akty prawne w brzmieniu na wybrany dzień, z serwera MCP otwarteprawo.pl: badanie przepisu po adresie i dacie, sprawdzenie cytowań w projekcie oraz brzmienie z dnia zdarzenia. / Polish law acts as they read on a date, through otwarteprawo.pl's MCP server: research by address and date, a citation check of a draft, and the text that applied on the date of an event.",
   "author": {
     "name": "otwarteprawo.pl",
