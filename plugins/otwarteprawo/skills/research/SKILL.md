@@ -1,7 +1,6 @@
 ---
 name: research
 description: Research Polish law by an act's address and a date with otwarteprawo.pl. Quote a provision as it read on that date, citing its eId, the Dziennik Ustaw or Monitor Polski PDF and how the text was verified. Use when the user asks what a Polish ustawa, kodeks or rozporządzenie says, now or on a date, e.g. "co mówi art. 299 ksh", "brzmienie art. 113 ust. 1 ustawy o VAT na dzień 1 stycznia 2020", "stan prawny na dzień", "jaki przepis reguluje", "Dz.U. 2016 poz. 1444".
-allowed-tools: mcp__plugin_otwarteprawo_otwarteprawo__get_provision mcp__plugin_otwarteprawo_otwarteprawo__search_acts
 ---
 
 # Research a provision by address and date

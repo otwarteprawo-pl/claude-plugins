@@ -1,7 +1,6 @@
 ---
 name: citation-check
 description: Check every citation of Polish law in a draft (pismo, opinia, umowa, wniosek) against the text in force on a date, with otwarteprawo.pl. Report, per citation, whether the act is law on that date, whether the unit exists, whether a quotation matches the text, and the Dziennik Ustaw or Monitor Polski PDF to check against. Use for requests like "sprawdź cytowania w projekcie", "czy te przepisy są aktualne na dzień", "zweryfikuj podstawę prawną", "check the citations in this draft".
-allowed-tools: mcp__plugin_otwarteprawo_otwarteprawo__get_provision mcp__plugin_otwarteprawo_otwarteprawo__search_acts
 ---
 
 # Check a draft's citations as of a date

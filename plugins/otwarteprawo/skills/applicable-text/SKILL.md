@@ -1,7 +1,6 @@
 ---
 name: applicable-text
 description: Find which text of a Polish law provision applied on the date of an event (zawarcie umowy, powstanie obowiązku podatkowego, wydanie decyzji, czyn), with otwarteprawo.pl. Quote the provision as it read on that date, show whether it has changed since, and cite the Dziennik Ustaw or Monitor Polski PDF. Use for requests like "jakie brzmienie obowiązywało w dniu zdarzenia", "stan prawny na dzień zawarcia umowy", "który przepis stosować do zdarzenia z 2019 r.", "przepisy przejściowe".
-allowed-tools: mcp__plugin_otwarteprawo_otwarteprawo__get_provision mcp__plugin_otwarteprawo_otwarteprawo__search_acts
 ---
 
 # The text that applied on the date of an event
